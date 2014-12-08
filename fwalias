@@ -1,0 +1,40 @@
+#
+# Firmware Rename Config
+# 固件重命名配置
+#
+# 例子：
+#   如原本固件命名为:
+#       (TR7088_NMC1000_BK3515_ICN850X@FC_CAM+ALL_BOE_STK8312_PUBLIC@140709)_(nG_7418i@140709)_OTA_V442.rar
+#   配置以下几项后 
+#       TP_ALIAS="ICN850X@GST"
+#       CAMERA_ALIAS="GC2035+OV5642"
+#       CUSTOMER_ALIAS="CHUWI"
+#   使用ttpacakge打包出来的固件则命名为：
+#       (TR7088_NMC1000_BK3515_ICN850X@GST_GC2035+OV5642_BOE_STK8312_CHUWI@140709)_(nG_7418i@140709)_OTA_V442.rar
+#
+#
+#   配置FORCE_ALIAS=后固件将会强制重命名为该名字，如:
+#       FORCE_ALIAS="Starmobile_V09_032714"
+#   使用ttpacakge打包出来的固件则命名为：
+#       Starmobile_V09_032714.rar 
+#
+#
+#   注意:
+#   TCTools更新到以下提交后才有效
+#   commit da2fffb0564c787417fcecb9f601271dad7bce24
+#   Author: WengBaijie <wengbaijie@t-chip.com.cn>
+#   Date:   Wed Jul 9 10:38:04 2014 +0800
+#
+#       Tchip->Tools:支持固件别名修改
+#
+
+#DEVICE_ALIAS=""
+#WIFI_ALIAS=""
+#BT_ALIAS=""
+#TP_ALIAS=""
+#CAMERA_ALIAS=""
+#SCREEN_ALIAS=""
+#GSENSOR_ALIAS=""
+#CUSTOMER_ALIAS=""
+#OTHER_ALIAS=""
+#FORCE_ALIAS=""
